@@ -48,7 +48,7 @@ Estoy implementando flujos de IA que han llevado mis desarrollos y tiempos de en
 
 Cuando logro recuperar mi PC de las garras de mi hija (11 años, adicta a Roblox):
 
-* 🐱 **Crazy Cat Person:** Dueño de **8 gatos**. La casa es de ellos, yo solo pago el arriendo.
+* 🐱 **Crazy Cat Person:** Dueño de **8 gatos**. La casa es de ellos, yo solo pago el internet.
 * 🎮 **Gamer Old School:**
     * **LoL:** Support Main. (Alguien tiene que poner visión en el mapa).
     * **Ragnarok Online:** Main **Whitesmith**. Job favorito por siempre.
@@ -60,7 +60,5 @@ Cuando logro recuperar mi PC de las garras de mi hija (11 años, adicta a Roblox
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/RkKqs3dKoy8uCq6n2C/giphy.gif?cid=ecf05e478y42u1k2k5r5t6w4x9w9w9w9w9w9w9w9w9w9w9w9&rid=giphy.gif" width="200" alt="Cat Coding" />
-  <br>
   <i>"Programando el futuro (o intentando que compile)."</i>
 </div>
