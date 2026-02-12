@@ -1,61 +1,66 @@
-# 🌊 Vibecode: The Orchestrator Project
+# 😼 Ignacio "Nashishoo" Garriga
+### Vibecoder | GovTech Enthusiast | Full Stack (JS/Python)
 
-> *"No escribo código, orquesto soluciones."*
-
-Bienvenido a mi laboratorio personal de **Vibe Coding**. Este repositorio no es solo una colección de scripts; es la implementación viva de una filosofía donde el desarrollador deja de ser un obrero del teclado para convertirse en el **Arquitecto**.
-
-## 🧠 La Filosofía (Vibecode Manifesto)
-
-El código tradicional es estático. **Vibecode** es dinámico.
-En este proyecto, exploro la creación de **Agentes Autónomos** que operan bajo una jerarquía inteligente, eliminando la fricción manual del desarrollo.
-
-### ⚙️ Cómo funciona este Repo
-
-Basado en la arquitectura de **Orquestación de Agentes**, este sistema opera con roles definidos:
-
-1.  **El Arquitecto (Master Node):**
-    * Actúa como el *Project Manager*. Recibe la visión abstracta y la desglosa en un plan de ejecución.
-    * Asigna `prompts` y roles específicos a los agentes subordinados.
-    * Define las `skills` necesarias (basadas en estándares como *skills.sh*).
-
-2.  **El Escriba Invisible (Gemini Flash Layer):**
-    * Mientras los agentes construyen, una instancia ligera (Flash) opera en **segundo plano**.
-    * **Su única misión:** Actualizar la documentación y los `.md` en tiempo real.
-    * *Resultado:* Documentación que nunca queda obsoleta, generada sin intervención humana.
-
-3.  **Autonomía de Herramientas:**
-    * Los agentes no solo usan herramientas; las generan según la necesidad de la tarea.
+> *"La IA es el lienzo y nosotros los artistas. No la temas, abrázala como a una hermana y pintemos un futuro mejor."*
 
 ---
 
-## 👨‍💻 Sobre el Humano en el Loop
+## 👨‍💻 Origen Story (The Human Loop)
 
-Soy **Ignacio Garriga Muñoz**, Desarrollador y Estudiante de Administración Pública.
-Desde **Las Cabras, VI Región**, busco fusionar la lógica estructurada de la administración con la libertad creativa del desarrollo web.
+**Autodidacta por diseño.** Estudié Análisis de Datos y Progra, pero fui *drop-out* porque mi ritmo de aprendizaje es "romper cosas hasta que funcionen".
 
-* 🔭 **Actualmente trabajando en:** Sistemas ERP para pymes (con gestión de fiado incluida 😉) y portales inmobiliarios.
-* 💼 **Fundador de:** [Catapaz](https://catapaz.cl) - Desarrollo Web & Marketing Digital (inspirado en mi hija Catalina Paz).
-* 🌱 **Otros proyectos:** El Pewen (Punto Blue Express & Vida Sana).
+Empecé aplicando código en juegos (como buen gamer), y en pandemia aproveché un Bootcamp para pulir mis skills. Mi primer *grind* real fue creando **plataformas inmobiliarias a puro código Old School (Vanilla JS, HTML, CSS)**.
 
-### 🕹️ AFK (Away From Keyboard)
+¿Por qué WordPress después? La triste verdad del freelance: **al cliente no le importa el código, le importa que se vea bonito y funcione.** (Painfully true).
 
-Cuando no estoy orquestando agentes de IA, probablemente me encuentres:
+Ahora, mezclo mundos: estudio **Administración Pública** porque quiero llevar la eficiencia del código al Estado. **GovTech is the goal.**
 
-* 🏎️ **JDM Dreamer:** Planeando la restauración de un **Nissan Skyline R32** o un **Subaru Impreza GC8**. (Los 90s nunca se fueron).
-* 🏹 **Ragnarok Online:** Main Deadeye en el servidor *Echoes of Morroc*. El grind nunca termina.
-* 🚴 **Ruta:** Prefiero la bicicleta o caminar antes que el tráfico, a menos que sea en un JDM.
+---
+
+## 🌊 Era Actual: Vibe Coding
+
+Hace 1 año desbloqueé el **Vibe Coding**. Ya no solo escribo líneas; **orquesto soluciones**.
+Estoy implementando flujos de IA que han llevado mis desarrollos y tiempos de entrega a otro nivel.
+
+### 🚀 Proyectos en el Radar
+* 🌌 **antigravity-template-ide-native:** Workflow de agentes nativos. *IDE-Native Starter Kit* para flujos paralelos de IA. Zero-Config, Artifact-First & Human-in-the-Loop.
+* 🏢 **Micro ERP Masivo:** Sistema en producción (con gestión de fiado incluida 😉).
+* 🤖 **Auditor Mercado Público (AI):** Analizando licitaciones y recursos públicos.
+* 🏠 **Portales Inmobiliarios:** 100% autoadministrables.
+* 🌱 **El Pewen:** E-commerce en desarrollo.
+* 🌟 **TOPV:** Plataforma de asesorías *on-demand* (Próximamente).
 
 ---
 
 ## 🛠️ Tech Stack & Herramientas
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![Vibe](https://img.shields.io/badge/Vibe-Coding-ff69b4?style=for-the-badge)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_AI-D97757?style=flat-square)
 
 ---
 
-> *"La única utilidad real de la IA no es reemplazar al humano, sino dejarlo a cargo de la visión mientras la máquina se encarga de los detalles invisibles."*
+## ⚡ AFK (Away From Keyboard)
 
-📍 *Las Cabras, Chile.*
+Cuando logro recuperar mi PC de las garras de mi hija (11 años, adicta a Roblox):
+
+* 🐱 **Crazy Cat Person:** Dueño de **8 gatos**. La casa es de ellos, yo solo pago el arriendo.
+* 🎮 **Gamer Old School:**
+    * **LoL:** Support Main. (Alguien tiene que poner visión en el mapa).
+    * **Ragnarok Online:** Main **Whitesmith**. Job favorito por siempre.
+* 🏎️ **JDM Dreamer:** Soñando con restaurar un **Nissan Skyline R32** o un **Impreza GC8**.
+* 📺 **Binge-watcher:** *Breaking Bad, BCS, Peaky Blinders, Dr. House, GoT*.
+* 🦆 **Meme Lord:** *Dolan pls.*
+* 🏔️ **Trekking:** Prefiero perderme en la montaña o la bici antes que el tráfico.
+
+---
+
+<div align="center">
+  <img src="https://media.giphy.com/media/RkKqs3dKoy8uCq6n2C/giphy.gif?cid=ecf05e478y42u1k2k5r5t6w4x9w9w9w9w9w9w9w9w9w9w9w9&rid=giphy.gif" width="200" alt="Cat Coding" />
+  <br>
+  <i>"Programando el futuro (o intentando que compile)."</i>
+</div>
