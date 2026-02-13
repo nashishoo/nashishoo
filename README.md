@@ -4,9 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7DF1E&center=true&vCenter=true&width=435&lines=Vibecoder+%7C+GovTech+Enthusiast;Full+Stack+(JS%2FPython);Orchestrating+AI+Agents;Building+the+Future" alt="Typing SVG" />
 </div>
 
-<div align="center">
-  <i>"La IA es el lienzo y nosotros los artistas. No la temas, abrázala como a una hermana y pintemos un futuro mejor."</i>
-</div>
 
 ---
 
