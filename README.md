@@ -12,6 +12,8 @@ Perdido en alguna montaña.
 Sirviendo a mis 8 gatos.
 Soñando con el motor de un Impreza GC8.
 
+**Este repo esta dedicado 100% al Vibecode**
+
 <div align="center">
   <i>"Programando el futuro (o intentando que compile)."</i>
   <br><br>
