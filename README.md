@@ -1,6 +1,6 @@
 # Hola, soy Dolan 👋
 
-> Escribo código para que las cosas funcionen, pero estudio Administración Pública para que las cosas importen.
+> Uso agentes y herramientas LLM para automatizar los problemas de hoy. Estudio Administración Pública para hackear la burocracia y optimizar el sistema del mañana.
 
 Soy un **Full Stack JS autodidacta**. Dejé la carrera de Análisis de Datos y Computación porque el ritmo académico me aburrió soberanamente; descubrí que aprendo mucho más rápido rompiendo cosas en `JavaScript` y `Python` hasta que compilan, o viendo el tutorial de un Indio xd. 
 
