@@ -1,24 +1,23 @@
-# Hola, soy Dolan 👋
+# Sup, im Dolan 👋
 
-> Uso agentes y herramientas LLM para automatizar los problemas de hoy. Estudio Administración Pública para hackear la burocracia y optimizar el sistema del mañana.
+> I use LLM agents and tools to automate today's problems. I study Public Administration to hack bureaucracy and optimize tomorrow's system.
 
-Soy un **Full Stack JS autodidacta**. Dejé la carrera de Análisis de Datos y Computación porque el ritmo académico me aburrió soberanamente; descubrí que aprendo mucho más rápido rompiendo cosas en `JavaScript` y `Python` hasta que compilan, o viendo el tutorial de un Indio xd. 
+I'm a **self-taught Full Stack JS developer**. I dropped out of Data Analysis and Computer Science because the academic pace bored me to death; I discovered I learn way faster by breaking things in `JavaScript` and `Python` until they compile, or watching some Indian guy's tutorial lol.
 
-Cambié el *grind* tradicional por la orquestación de agentes de IA y el sueño del **GovTech**. Creo firmemente en las interfaces limpias, en un Estado digitalmente eficiente, y en que alguien tiene que comprar los *wards* en la botlane.
+I traded the traditional *grind* for AI agent orchestration and the **GovTech** dream. I firmly believe in clean interfaces, a digitally efficient State, and that someone has to buy the *wards* in the botlane.
 
 ---
 
-### 📍 Status Actual / AFK
+### 📍 Current Status / AFK
+- 🚶‍♂️ Walking or cycling around Las Cabras.
+- ⛰️ Lost on some mountain doing trekking.
+- 🐈 Serving as maintenance staff for my 8 cats.
+- 🏎️ Daydreaming about a *Subaru Impreza GC8* or a *Nissan Skyline R32* engine.
 
-- 🚶‍♂️ Caminando o pedaleando por Las Cabras.
-- ⛰️ Perdido en alguna montaña haciendo trekking.
-- 🐈 Sirviendo como personal de mantenimiento para mis 8 gatos.
-- 🏎️ Soñando despierto con el motor de un *Subaru Impreza GC8* o un *Nissan Skyline R32*.
-
-**Este repo esta dedicado 100% al Vibecode**
+**This repo is 100% dedicated to Vibecoding**
 
 <div align="center">
-  <i>"Programando el futuro (o intentando que compile)."</i>
+  <i>"Programming the future (or trying to get it to compile)."</i>
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=nashishoo&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views" />
 </div>
