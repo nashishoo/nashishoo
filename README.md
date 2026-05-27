@@ -8,7 +8,6 @@ I LIKE TO EAT COMPLETOS
 - 🐈 Serving as maintenance staff for my 8 cats.
 - 🏎️ Daydreaming about a *Subaru Impreza GC8* or a *Nissan Skyline R32* engine.
 
-**This repo is 100% dedicated to Vibecoding**
 
 <div align="center">
   <br><br>
