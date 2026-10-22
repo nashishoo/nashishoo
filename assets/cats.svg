@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
   <title id="title">The 8 bosses (I am the maintenance staff)</title>
-  <desc id="desc">Eight cute cats in two rows of four: Rubio tuxedo, Rubia, Rubio tuxedo peludo, Rubia tuxedo, Calico 1, Calico 2, Calico gorda, and Carey. Eyes blink, tails swish, and bodies breathe on staggered timers.</desc>
+  <desc id="desc">Eight cute cats in two rows of four: Morrón, Rusia, Chirimoya, Panchula, Valentona, Papaya, Tigresa, and Negrucha. Eyes blink, tails swish, and bodies breathe on staggered timers.</desc>
   <style type="text/css"><![CDATA[
     svg {
       font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Liberation Sans", "DejaVu Sans", sans-serif;
@@ -155,7 +155,7 @@
         <ellipse cx="146.5" cy="163" rx="1.7" ry="2.1"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Rubio tuxedo</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Morrón</text>
   </g>
 
   <!-- 2 Rubia: solid blond long-hair female -->
@@ -259,7 +259,7 @@
         <ellipse cx="146.5" cy="165" rx="1.7" ry="2.1"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Rubia</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Rusia</text>
   </g>
 
   <!-- 3 Rubio tuxedo peludo: blond long-hair tuxedo male -->
@@ -348,7 +348,7 @@
         <ellipse cx="151" cy="165" rx="1.8" ry="2.2"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Rubio tuxedo peludo</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Chirimoya</text>
   </g>
 
   <!-- 4 Rubia tuxedo: blond short-hair tuxedo female -->
@@ -416,7 +416,7 @@
         <ellipse cx="146.2" cy="163" rx="1.6" ry="2"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Rubia tuxedo</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Panchula</text>
   </g>
 
   <!-- 5 Calico 1: white with orange and black patches -->
@@ -476,7 +476,7 @@
         <ellipse cx="146.5" cy="163" rx="1.7" ry="2.1"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Calico 1</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Valentona</text>
   </g>
 
   <!-- 6 Calico 2: white with a different orange and black patch map -->
@@ -537,7 +537,7 @@
         <ellipse cx="146.5" cy="163" rx="1.7" ry="2.1"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Calico 2</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Papaya</text>
   </g>
 
   <!-- 7 Calico gorda: round fat calico -->
@@ -601,7 +601,7 @@
         <ellipse cx="157" cy="171" rx="2" ry="2.4"/>
       </g>
     </g>
-    <text class="label" x="120" y="208" text-anchor="middle">Calico gorda</text>
+    <text class="label" x="120" y="208" text-anchor="middle">Tigresa</text>
   </g>
 
   <!-- 8 Carey: tortoiseshell, black and dark brown mottled with orange -->
@@ -668,6 +668,6 @@
         <ellipse cx="146.5" cy="163" rx="1.7" ry="2.1" fill="#f4c0a0"/>
       </g>
     </g>
-    <text class="label" x="120" y="204" text-anchor="middle">Carey</text>
+    <text class="label" x="120" y="204" text-anchor="middle">Negrucha</text>
   </g>
 </svg>

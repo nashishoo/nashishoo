@@ -32,21 +32,21 @@ A completo is a Chilean hot dog. Tomate, palta, and mayo are the Italian flag. T
 
 ## 🐈 The 8 bosses
 
-<img src="assets/cats.svg" width="100%" alt="Eight cartoon cats in two rows: Rubio tuxedo, Rubia, Rubio tuxedo peludo, Rubia tuxedo, two calicos, Calico gorda, and Carey">
+<img src="assets/cats.svg" width="100%" alt="Eight cartoon cats in two rows: Morrón, Rusia, Chirimoya, Panchula, Valentona, Papaya, Tigresa, and Negrucha">
 
 <details>
 <summary>Roster of the 8 bosses</summary>
 
-| Boss | Spec |
+| Name | Description |
 | --- | --- |
-| Rubio | Tuxedo, short-hair, male |
-| Rubia | Long-hair, female |
-| Rubio | Tuxedo, long-hair, male |
-| Rubia | Tuxedo, short-hair, female |
-| Calico | Calico, 1 of 2 |
-| Calico | Calico, 2 of 2 |
-| Calico gorda | Calico, the round one |
-| Carey | Tortoiseshell (*carey*) |
+| Morrón | rubio tuxedo de pelo corto |
+| Rusia | rubia de pelo largo |
+| Chirimoya | rubio tuxedo de pelo largo |
+| Panchula | rubia tuxedo de pelo corto |
+| Valentona | calico |
+| Papaya | calico |
+| Tigresa | calico gorda |
+| Negrucha | carey |
 
 </details>
 
