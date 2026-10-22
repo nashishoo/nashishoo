@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <title>Current status</title>
+  <desc>Four animated cards: a cyclist at Las Cabras, a trekking hiker, a cat with a wrench, and a boxer engine over a coupe.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a0e"/>
+      <stop offset="0.5" stop-color="#0c1412"/>
+      <stop offset="1" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16324a"/>
+      <stop offset="1" stop-color="#0e1c28"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <style><![CDATA[
+    .label {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 15px;
+      fill: #e7eef8;
+    }
+    .spin {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: spin 0.85s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .rider {
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: bob 0.5s ease-in-out infinite;
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-2.5px); }
+    }
+    .speed { animation: dash 0.55s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -32; } }
+    .cloud {
+      animation: drift 6.5s ease-in-out infinite;
+    }
+    .cloud.b { animation-duration: 9s; animation-delay: -3.2s; }
+    @keyframes drift {
+      0%, 100% { transform: translateX(-12px); }
+      50% { transform: translateX(18px); }
+    }
+    .hiker {
+      animation: trek 3.2s ease-in-out infinite;
+    }
+    @keyframes trek {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(14px, 6px); }
+    }
+    .leg {
+      transform-box: fill-box;
+      transform-origin: 50% 0%;
+      animation: stride 0.62s ease-in-out infinite;
+    }
+    .leg.r { animation-delay: -0.31s; }
+    @keyframes stride {
+      0%, 100% { transform: rotate(24deg); }
+      50% { transform: rotate(-24deg); }
+    }
+    .tail {
+      transform-box: fill-box;
+      transform-origin: 100% 80%;
+      animation: swish 1.5s ease-in-out infinite;
+    }
+    @keyframes swish {
+      0%, 100% { transform: rotate(10deg); }
+      50% { transform: rotate(-22deg); }
+    }
+    .eyes {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: blink 3.6s linear infinite;
+    }
+    @keyframes blink {
+      0%, 40%, 48%, 100% { transform: scaleY(1); }
+      44% { transform: scaleY(0.12); }
+    }
+    .wrench {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: turn 1.15s ease-in-out infinite;
+    }
+    @keyframes turn {
+      0%, 100% { transform: rotate(-16deg); }
+      50% { transform: rotate(16deg); }
+    }
+    .glow {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: pulse 2.3s ease-in-out infinite;
+    }
+    .glow.alt { animation-delay: -1.15s; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.38; transform: scale(0.94); }
+      50% { opacity: 0.95; transform: scale(1.1); }
+    }
+    .engine { animation: hover 3s ease-in-out infinite; }
+    @keyframes hover {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .spin, .rider, .speed, .cloud, .hiker, .leg, .tail, .eyes, .wrench, .glow, .engine {
+        animation: none;
+      }
+    }
+  ]]></style>
+  <rect width="1000" height="260" fill="url(#bg)"/>
+
+  <svg x="14" y="14" width="234" height="232" overflow="hidden">
+    <rect x="1" y="1" width="232" height="230" rx="16" fill="#121820" stroke="#2c3a4e" stroke-width="1.5"/>
+    <rect x="18" y="192" width="28" height="3" rx="1.5" fill="#34d399"/>
+    <text class="label" x="117" y="214" text-anchor="middle">Las Cabras</text>
+    <path class="speed" d="M16 148 H52" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 8" opacity="0.8"/>
+    <path class="speed" d="M22 162 H46" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 8" opacity="0.55"/>
+    <line x1="28" y1="170" x2="206" y2="170" stroke="#243244" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(68,148)">
+      <circle r="23" fill="#0b1018" stroke="#d5dee8" stroke-width="3.5"/>
+      <g class="spin">
+        <circle r="8" fill="none" stroke="#94a3b8" stroke-width="2"/>
+        <path d="M0-16V16M-16 0H16M-11-11L11 11M-11 11L11-11" fill="none" stroke="#94a3b8" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cy="-15" r="2.3" fill="#fb7185"/>
+        <circle cy="15" r="2.3" fill="#fb7185" opacity="0"/>
+        <circle r="2.4" fill="#e2e8f0"/>
+      </g>
+    </g>
+    <g transform="translate(166,148)">
+      <circle r="23" fill="#0b1018" stroke="#d5dee8" stroke-width="3.5"/>
+      <g class="spin">
+        <circle r="8" fill="none" stroke="#94a3b8" stroke-width="2"/>
+        <path d="M0-16V16M-16 0H16M-11-11L11 11M-11 11L11-11" fill="none" stroke="#94a3b8" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cy="-15" r="2.3" fill="#fb7185"/>
+        <circle cy="15" r="2.3" fill="#fb7185" opacity="0"/>
+        <circle r="2.4" fill="#e2e8f0"/>
+      </g>
+    </g>
+    <path d="M68 148 L96 108 L150 104 L166 148" fill="none" stroke="#e2e8f0" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M96 108 L116 148 L150 104" fill="none" stroke="#e2e8f0" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M84 106 H110" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+    <path d="M146 100 H170" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+    <path d="M150 104 L158 96" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(104,108)">
+      <g class="rider">
+        <path d="M-2 6 Q16 2 30-12" fill="none" stroke="#34d399" stroke-width="5" stroke-linecap="round"/>
+        <path d="M24-8 Q38-4 52-10" fill="none" stroke="#34d399" stroke-width="3.4" stroke-linecap="round"/>
+        <circle cx="34" cy="-24" r="8.5" fill="#f3c19a"/>
+        <path d="M26-26 Q34-36 44-26" fill="none" stroke="#6ee7b7" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M0 8 L-6 28 L-2 40" fill="none" stroke="#334155" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2 10 L20 28 L22 40" fill="none" stroke="#334155" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <circle cx="116" cy="148" r="3.2" fill="#fbbf24"/>
+  </svg>
+
+  <svg x="260" y="14" width="234" height="232" overflow="hidden">
+    <rect x="1" y="1" width="232" height="230" rx="16" fill="#121820" stroke="#2c3a4e" stroke-width="1.5"/>
+    <rect x="18" y="192" width="28" height="3" rx="1.5" fill="#67e8f9"/>
+    <text class="label" x="117" y="214" text-anchor="middle">Trekking</text>
+    <rect x="10" y="12" width="214" height="164" rx="12" fill="url(#sky)"/>
+    <circle cx="188" cy="38" r="22" fill="#fde68a" opacity="0.18"/>
+    <circle cx="188" cy="38" r="11" fill="#fde68a"/>
+    <g fill="#e8f1f8">
+      <g class="cloud">
+        <ellipse cx="52" cy="42" rx="16" ry="8"/>
+        <ellipse cx="66" cy="38" rx="12" ry="9"/>
+        <ellipse cx="38" cy="40" rx="10" ry="7"/>
+      </g>
+      <g class="cloud b">
+        <ellipse cx="150" cy="30" rx="18" ry="8"/>
+        <ellipse cx="166" cy="28" rx="11" ry="7"/>
+        <ellipse cx="136" cy="32" rx="10" ry="6"/>
+      </g>
+    </g>
+    <path d="M10 150 L46 96 L74 122 L108 74 L142 116 L178 90 L224 128 L224 164 L10 164 Z" fill="#1a3144"/>
+    <path d="M108 74 L120 96 L96 94 Z" fill="#e7f0f7"/>
+    <path d="M10 176 L34 134 L72 158 L112 116 L154 170 L196 138 L224 156 L224 176 Z" fill="#1d4636"/>
+    <path d="M112 116 L124 136 L100 134 Z" fill="#d7e6f0"/>
+    <path d="M28 162 Q78 150 112 142 T206 156" fill="none" stroke="#c4a36a" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+    <g transform="translate(118,108)">
+      <g class="hiker">
+        <rect x="-14" y="8" width="9" height="13" rx="2" fill="#b45309"/>
+        <path d="M-7 8 L0 5 L8 8 L7 22 L-6 22 Z" fill="#5eead4"/>
+        <circle cy="0" r="6" fill="#f3c19a"/>
+        <path d="M-7 -1 H7" stroke="#34d399" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M-3.2 -1 L0 -7 L3.2 -1 Z" fill="#34d399"/>
+        <path d="M1 12 L10 18 L14 32" fill="none" stroke="#d6d3d1" stroke-width="1.7" stroke-linecap="round"/>
+        <g class="leg" transform="translate(0,20)">
+          <rect x="-4" y="0" width="8" height="16" fill="#000" opacity="0"/>
+          <path d="M0 0 L-1 15" fill="none" stroke="#1e293b" stroke-width="3.2" stroke-linecap="round"/>
+        </g>
+        <g class="leg r" transform="translate(0,20)">
+          <rect x="-4" y="0" width="8" height="16" fill="#000" opacity="0"/>
+          <path d="M0 0 L1 15" fill="none" stroke="#0f172a" stroke-width="3.2" stroke-linecap="round"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+
+  <svg x="506" y="14" width="234" height="232" overflow="hidden">
+    <rect x="1" y="1" width="232" height="230" rx="16" fill="#121820" stroke="#2c3a4e" stroke-width="1.5"/>
+    <rect x="18" y="192" width="28" height="3" rx="1.5" fill="#fdba74"/>
+    <text class="label" x="117" y="214" text-anchor="middle">Cat maintenance</text>
+    <g transform="translate(78,148)">
+      <g class="tail">
+        <path d="M8 0 Q-24 -8 -30 -36" fill="none" stroke="#e7b083" stroke-width="8" stroke-linecap="round"/>
+        <path d="M8 0 Q-24 -8 -30 -36" fill="none" stroke="#c4844a" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      </g>
+    </g>
+    <ellipse cx="108" cy="142" rx="42" ry="28" fill="#e7b083"/>
+    <path d="M78 134 q12 10 24 0" fill="none" stroke="#c4844a" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M86 146 q10 8 20 0" fill="none" stroke="#c4844a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="128" cy="104" r="24" fill="#e7b083"/>
+    <path d="M108 90 L114 66 L128 88 Z" fill="#e7b083"/>
+    <path d="M114 84 L117 72 L126 86 Z" fill="#f6c7b4"/>
+    <path d="M136 86 L152 64 L156 94 Z" fill="#e7b083"/>
+    <path d="M142 82 L150 70 L154 90 Z" fill="#f6c7b4"/>
+    <g class="eyes">
+      <ellipse cx="120" cy="104" rx="3.3" ry="4.2" fill="#1c1917"/>
+      <ellipse cx="138" cy="104" rx="3.3" ry="4.2" fill="#1c1917"/>
+      <circle cx="121.2" cy="102.6" r="1" fill="#fff7ed"/>
+      <circle cx="139.2" cy="102.6" r="1" fill="#fff7ed"/>
+    </g>
+    <ellipse cx="129" cy="112" rx="2.2" ry="1.5" fill="#fb7185"/>
+    <path d="M124 116 l5 3.5 l5-3.5" fill="none" stroke="#9a3412" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M104 108 H88 M106 113 H90 M150 108 H166 M148 113 H164" fill="none" stroke="#f8e1cc" stroke-width="1.1" stroke-linecap="round"/>
+    <g transform="translate(186,82)">
+      <circle r="6.5" fill="#475569"/>
+      <path d="M0-3V3M-3 0H3" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+      <g class="wrench">
+        <rect x="-1" y="-50" width="2" height="2" opacity="0"/>
+        <rect x="-14" y="-9" width="28" height="8" rx="1.5" fill="#e8eef5"/>
+        <rect x="-14" y="-1" width="7" height="11" rx="1" fill="#e8eef5"/>
+        <rect x="7" y="-1" width="7" height="11" rx="1" fill="#e8eef5"/>
+        <rect x="-3.1" y="8" width="6.2" height="32" rx="2.2" fill="#cbd5e1"/>
+        <ellipse cx="0" cy="42" rx="9" ry="6.5" fill="#f0c29a"/>
+      </g>
+    </g>
+  </svg>
+
+  <svg x="752" y="14" width="234" height="232" overflow="hidden">
+    <rect x="1" y="1" width="232" height="230" rx="16" fill="#121820" stroke="#2c3a4e" stroke-width="1.5"/>
+    <rect x="18" y="192" width="28" height="3" rx="1.5" fill="#38bdf8"/>
+    <text class="label" x="117" y="214" text-anchor="middle">GC8 / R32 dreams</text>
+    <ellipse class="glow" cx="117" cy="118" rx="86" ry="46" fill="#22d3ee" filter="url(#glow)"/>
+    <ellipse class="glow alt" cx="117" cy="124" rx="58" ry="22" fill="#818cf8"/>
+    <g transform="translate(117,72)">
+      <g class="engine">
+        <rect x="-62" y="-20" width="34" height="14" rx="2" fill="#d5dee8"/>
+        <rect x="-62" y="6" width="34" height="14" rx="2" fill="#d5dee8"/>
+        <rect x="28" y="-20" width="34" height="14" rx="2" fill="#d5dee8"/>
+        <rect x="28" y="6" width="34" height="14" rx="2" fill="#d5dee8"/>
+        <g stroke="#64748b" stroke-width="1.1" stroke-linecap="round">
+          <path d="M-56-16v6M-50-16v6M-44-16v6M-38-16v6"/>
+          <path d="M-56 10v6M-50 10v6M-44 10v6M-38 10v6"/>
+          <path d="M34-16v6M40-16v6M46-16v6M52-16v6"/>
+          <path d="M34 10v6M40 10v6M46 10v6M52 10v6"/>
+        </g>
+        <rect x="-30" y="-18" width="60" height="36" rx="6" fill="#94a3b8"/>
+        <rect x="-18" y="-10" width="36" height="20" rx="3" fill="#334155"/>
+        <circle r="6.5" fill="none" stroke="#67e8f9" stroke-width="2"/>
+        <circle r="2" fill="#67e8f9"/>
+        <circle cx="-22" cy="-11" r="1.5" fill="#e2e8f0"/>
+        <circle cx="22" cy="-11" r="1.5" fill="#e2e8f0"/>
+        <circle cx="-22" cy="11" r="1.5" fill="#e2e8f0"/>
+        <circle cx="22" cy="11" r="1.5" fill="#e2e8f0"/>
+      </g>
+    </g>
+    <path d="M28 150 L42 138 Q58 122 88 114 L128 110 Q158 110 176 126 L200 138 L216 148 L216 160 L28 160 Z" fill="#e8eef7"/>
+    <path d="M92 118 L126 114 L152 128 L104 132 Z" fill="#121820"/>
+    <path d="M40 142 H70" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="74" cy="158" r="16" fill="#121820"/>
+    <circle cx="168" cy="158" r="16" fill="#121820"/>
+    <circle cx="74" cy="158" r="16" fill="none" stroke="#e8eef7" stroke-width="3"/>
+    <circle cx="168" cy="158" r="16" fill="none" stroke="#e8eef7" stroke-width="3"/>
+    <circle cx="74" cy="158" r="5" fill="#67e8f9"/>
+    <circle cx="168" cy="158" r="5" fill="#67e8f9"/>
+    <path d="M36 166 H198" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  </svg>
+</svg>
